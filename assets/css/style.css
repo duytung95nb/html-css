@@ -1,14 +1,35 @@
-
+html {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 /* Page */
 .page {
     width: 954px;
     margin: auto;
 }
 .page .header {
-    border: 1px solid red;
     height: 50px;
     padding: 5px 40px 5px 40px;
     margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D2D4D4;
+}
+.page .header .brand-area{
+    display: block;
+    width: 20%;
+    text-align: left;
+    margin: auto 0;
+}
+.page .header .nav-area{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
 }
 .page .content {
     border: 1px solid red;
@@ -29,7 +50,6 @@
 
 /* Brand */
 .brand {
-    border: 1px solid blue;
     text-align: center;
     text-decoration: none;
     color: black;
@@ -44,3 +64,26 @@
     font-size: 24px;
 }
 /* End of Brand */
+
+/* Navbar */
+.nav {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav .item {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration-style: none;
+}
+.nav .item .active {
+    border-bottom: 1px solid blue;
+}
+.nav .item .text {
+    color: #8B8B8B;
+    text-decoration: none;
+}
+/* End of Navbar */
