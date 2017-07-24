@@ -7,6 +7,34 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+* {
+    box-sizing: border-box;
+}
+/* commons */
+.multi-columns {
+    width: 100%;
+    height: 100%;
+}
+.multi-columns .col-20 {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.multi-columns .col-80 {
+    float:left;
+    width: 80%;
+    height: 100%;
+}
+.multi-columns .col-50 {
+    float:left;
+    width: 50%;
+    height: 100%;
+}
+.multi-columns .pull-content-right {
+    text-align: right;
+}
+/* end of commons */
+
 /* page */
 .page {
     width: 954px;
@@ -15,7 +43,6 @@ ul {
 .page .header {
     height: 50px;
     padding: 5px 40px 5px 40px;
-    margin-bottom: 6px;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #D2D4D4;
@@ -32,9 +59,7 @@ ul {
     text-align: right;
 }
 .page .content {
-    border: 1px solid red;
     height: 500px;
-    margin-bottom: 6px;
 }
 .page .footer {
     border: 1px solid red;
@@ -49,15 +74,102 @@ ul {
 
 /* brand */
 .brand {
-    text-align: center;
     text-decoration: none;
     color: black;
-    display: block;
-    width: 100px;
+    display: inline-flex;
+    align-items: center;
     height: 100%;
 }
 .brand .icon {
 }
 .brand .name {
+    margin-left: 10px;
 }
 /* end of brand */
+/* main nav  */
+.main-nav {
+    display: inline-block;
+    height: 100%;
+}
+.main-nav .item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 16px; 
+}
+.main-nav .item.active {
+    border-bottom: 1px solid blue;
+}
+.main-nav .item .title {
+    text-decoration: none;
+}
+/* end of main nav  */
+/* slider */
+.slider {
+    position: relative;
+    height: 400px; 
+}
+.slider .prev {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    border: none;
+    top: 20%;
+    font-size: 200px;
+    left: 30px; 
+}
+.slider .prev::before {
+    content: '\003C'
+}
+.slider .next {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 200px;
+    top: 20%;
+    right: 30px;
+}
+.slider .next::before {
+    content: '\003E'
+}
+.slider .summary {
+    height: 100%;
+}
+.slider .summary .background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+.slider .summary .photo {
+    height: 100%;
+    padding: 40px 30px;
+}
+.slider .summary .description {
+    padding: 120px 30px;
+    color: white;
+}
+.slider .summary .description .title{}
+.slider .summary .description .details{}
+/* end of slider */
+/* common buttons */
+.btn-sign-up {
+    background-color: #4F94F1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px;
+}
+.btn-sign-up .text {
+}
+.btn-sign-up .text::before {
+    content: '✔';
+    margin: 4px;
+    border-radius: 50%;
+    color: #4F94F1;
+    background-color: white;
+}
+/* end of common buttons */
