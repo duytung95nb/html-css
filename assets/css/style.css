@@ -59,10 +59,8 @@ ul {
 }
 .page .content {
     height: 500px;
-    border: 1px solid red;
 }
 .page .footer {
-    border: 1px solid red;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -104,3 +102,71 @@ ul {
     text-decoration: none;
 }
 /* end of main nav  */
+/* slider */
+.slider {
+    position: relative;
+    height: 400px; 
+}
+.slider .prev {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    border: none;
+    top: 20%;
+    font-size: 200px;
+    left: 30px; 
+}
+.slider .prev::before {
+    content: '\003C'
+}
+.slider .next {
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 200px;
+    top: 20%;
+    right: 30px;
+}
+.slider .next::before {
+    content: '\003E'
+}
+.slider .summary {
+    height: 100%;
+}
+.slider .summary .background {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+.slider .summary .photo {
+    height: 100%;
+    padding: 40px 30px;
+}
+.slider .summary .description {
+    padding: 120px 30px;
+    color: white;
+}
+.slider .summary .description .title{}
+.slider .summary .description .details{}
+/* end of slider */
+/* common buttons */
+.btn-sign-up {
+    background-color: #4F94F1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 6px;
+}
+.btn-sign-up .text {
+}
+.btn-sign-up .text::before {
+    content: '✔';
+    margin: 4px;
+    border-radius: 50%;
+    color: #4F94F1;
+    background-color: white;
+}
+/* end of common buttons */
