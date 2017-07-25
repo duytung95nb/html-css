@@ -1,0 +1,106 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+* {
+    box-sizing: border-box;
+}
+/* commons */
+.multi-columns {
+    width: 100%;
+    height: 100%;
+}
+.multi-columns .col-20 {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.multi-columns .col-80 {
+    float:left;
+    width: 80%;
+    height: 100%;
+}
+.multi-columns .col-50 {
+    float:left;
+    width: 50%;
+    height: 100%;
+}
+.multi-columns .pull-content-right {
+    text-align: right;
+}
+/* end of commons */
+/* page */
+.page {
+    width: 954px;
+    margin: auto;
+}
+.page .header {
+    height: 50px;
+    padding: 5px 40px 5px 40px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D2D4D4;
+}
+.page .header .brand-area{
+    display: block;
+    width: 20%;
+    text-align: left;
+    margin: auto 0;
+}
+.page .header .nav-area{
+    display: inline-block;
+    width: 80%;
+    text-align: right;
+}
+.page .content {
+    height: 500px;
+    border: 1px solid red;
+}
+.page .footer {
+    border: 1px solid red;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copyright {
+}
+/* end of page */
+
+/* brand */
+.brand {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+.brand .icon {
+}
+.brand .name {
+    margin-left: 10px;
+}
+/* end of brand */
+/* main nav  */
+.main-nav {
+    display: inline-block;
+    height: 100%;
+}
+.main-nav .item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 16px; 
+}
+.main-nav .item.active {
+    border-bottom: 1px solid blue;
+}
+.main-nav .item .title {
+    text-decoration: none;
+}
+/* end of main nav  */
