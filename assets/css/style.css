@@ -136,9 +136,9 @@ ul {
     align-items: center;
     height: 100%;
 }
-.brand .icon {
+.brand__icon {
 }
-.brand .name {
+.brand__name {
     margin-left: 10px;
 }
 /* end of brand */
@@ -147,17 +147,25 @@ ul {
     display: inline-block;
     height: 100%;
 }
-.main-nav .item {
+.main-nav__item {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
     height: 100%;
     margin-left: 16px; 
 }
-.main-nav .item.active {
+.main-nav__item--active {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 16px; 
     border-bottom: 1px solid blue;
 }
-.main-nav .item .title {
+.main-nav__item--active__title {
+    text-decoration: none;
+}
+.main-nav__item__title {
     text-decoration: none;
 }
 /* end of main nav  */
