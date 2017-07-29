@@ -41,7 +41,6 @@ ul {
     margin: auto;
 }
 .page .header {
-    border: 1px solid red;
     height: 50px;
     padding: 5px 40px 5px 40px;
     display: flex;
@@ -60,3 +59,36 @@ ul {
     padding-bottom: 20px;
 }
 /* end of page */
+/* brand */
+.brand {
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+.brand .icon {
+}
+.brand .name {
+    margin-left: 10px;
+}
+/* end of brand */
+/* main nav  */
+.main-nav {
+    display: inline-block;
+    height: 100%;
+}
+.main-nav .item {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 16px; 
+}
+.main-nav .item.active {
+    border-bottom: 1px solid blue;
+}
+.main-nav .item .title {
+    text-decoration: none;
+}
+/* end of main nav  */
