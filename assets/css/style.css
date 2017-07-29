@@ -63,7 +63,7 @@ ul {
     position: relative;
     height: 400px; 
 }
-.slider .prev {
+.slider__prev {
     background-color: transparent;
     color: white;
     position: absolute;
@@ -72,10 +72,10 @@ ul {
     font-size: 200px;
     left: 30px; 
 }
-.slider .prev::before {
+.slider__prev::before {
     content: '\003C'
 }
-.slider .next {
+.slider__next {
     background-color: transparent;
     color: white;
     position: absolute;
@@ -84,29 +84,29 @@ ul {
     top: 20%;
     right: 30px;
 }
-.slider .next::before {
+.slider__next::before {
     content: '\003E'
 }
-.slider .summary {
+.slider__summary {
     height: 100%;
 }
-.slider .summary .background {
+.slider__summary__background {
     position: absolute;
     top: 0;
     z-index: -1;
     width: 100%;
 }
-.slider .summary .photo {
+.slider__summary__photo {
     height: 100%;
     padding: 40px 30px;
 }
-.slider .summary .description {
+.slider__summary__description {
     padding: 120px 30px;
     color: white;
 }
-.slider .summary .description .title{
+.slider__summary__description__title{
 }
-.slider .summary .description .details{
+.slider__summary__description__details{
 }
 /* end of slider */
 /* common buttons */
@@ -118,10 +118,10 @@ ul {
     border-radius: 2px;
     padding: 6px;
 }
-.btn-sign-up .text {
+.btn-sign-up__text {
 }
-.btn-sign-up .text::before {
-    content: '✔';
+.btn-sign-up__text::before {
+    content: 'v';
     margin: 4px;
     border-radius: 50%;
     color: #4F94F1;
