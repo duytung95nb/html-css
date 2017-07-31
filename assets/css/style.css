@@ -15,22 +15,22 @@ ul {
     width: 100%;
     height: 100%;
 }
-.multi-columns .col-20 {
+.multi-columns__col-20 {
     float: left;
     width: 20%;
     height: 100%;
 }
-.multi-columns .col-80 {
+.multi-columns__col-80 {
     float:left;
     width: 80%;
     height: 100%;
 }
-.multi-columns .col-50 {
+.multi-columns__col-50 {
     float:left;
     width: 50%;
     height: 100%;
 }
-.multi-columns .pull-content-right {
+.multi-columns__pull-content-right {
     text-align: right;
 }
 /* end of commons */
@@ -110,7 +110,7 @@ ul {
 }
 /* end of slider */
 /* common buttons */
-.btn-sign-up {
+.sign-up {
     background-color: #4F94F1;
     color: white;
     border: none;
@@ -118,9 +118,9 @@ ul {
     border-radius: 2px;
     padding: 6px;
 }
-.btn-sign-up__text {
+.sign-up__text {
 }
-.btn-sign-up__text::before {
+.sign-up__text::before {
     content: 'v';
     margin: 4px;
     border-radius: 50%;
