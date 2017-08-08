@@ -1,0 +1,23 @@
+
+@mixin createPage($width: $default-page-width, $background-color: $default-background-color, $header-height: $default-page-header-height){
+    width: $width;
+    margin: auto;
+    background-color: $background-color;
+    &__header {
+        height: $header-height;
+        padding: 5px 40px 5px 40px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #D2D4D4;
+    }
+    &__content {
+    }
+    &__footer {
+        border-top: 1px solid grey;
+        margin-bottom: 6px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+}

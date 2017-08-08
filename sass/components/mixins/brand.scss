@@ -1,0 +1,13 @@
+
+@mixin createBrand($color: $default-brand-text-color) {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    color: $color;
+    height: 100%;
+    &__icon {
+    }
+    &__name {
+        margin-left: 10px;
+    }
+}
