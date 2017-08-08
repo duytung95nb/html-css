@@ -1,0 +1,8 @@
+
+@mixin createMultiColumnElements($width-percentage: 50) {
+    &__col-#{$width-percentage} {
+        float: left;
+        width: #{$width-percentage}#{'%'};
+        height: 100%;
+    }
+}

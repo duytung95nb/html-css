@@ -35,11 +35,10 @@ ul {
     width: 80%;
     height: 100%;
 }
-.multi-columns__pull-content-right {
+.pull-content-right {
     text-align: right;
 }
 /* end of commons */
-
 /* page */
 .page {
     width: 954px;

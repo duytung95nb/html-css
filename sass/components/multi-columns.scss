@@ -1,0 +1,8 @@
+@import './mixins/multi-columns.scss';
+
+.multi-columns {
+    width: 100%;
+    @for $i from 1 through 9 {
+        @include createMultiColumnElements(#{$i * 10});
+    }
+}

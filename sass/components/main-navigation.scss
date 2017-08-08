@@ -1,0 +1,5 @@
+@import './mixins/navigation.scss';
+
+.main-nav {
+    @include createNavigation();
+}
