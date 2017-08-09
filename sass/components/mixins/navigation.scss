@@ -1,0 +1,23 @@
+
+@mixin createNavigation($flex-direction: column, 
+                        $item-margin-left: 16px,
+                        $item-border-color: $default-nav-item-border-color){
+    display: inline-block;
+    height: 100%;
+    &__item {
+        display: inline-flex;
+        flex-direction: $flex-direction;
+        justify-content: center;
+        height: 100%;
+        margin-left: $item-margin-left;
+        &--active {
+            border-bottom: 1px solid $default-nav-item-border-color;
+            &__title {
+                text-decoration: none;
+            }
+        }
+        &__title {
+            text-decoration: none;
+        }
+    }
+}

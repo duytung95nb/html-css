@@ -1,0 +1,29 @@
+{
+  "name": "html-css-fundamental",
+  "version": "1.0.0",
+  "description": "This is the first html css applied sass",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "sass": "node-sass --include-path sass sass/themes/default/index.scss assets/css/style_sass.css",
+    "sass-blue-theme": "node-sass --include-path sass sass/themes/blue/index.scss assets/css/style_sass_blue.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duytung95nb/html-css.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Duy Tung",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/duytung95nb/html-css/issues"
+  },
+  "homepage": "https://github.com/duytung95nb/html-css#readme"
+}
