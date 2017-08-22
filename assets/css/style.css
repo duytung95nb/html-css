@@ -46,9 +46,11 @@ ul {
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #D2D4D4;
+    border: 1px solid red;
 }
 .page__content {
     height: 500px;
+    border: 1px solid red;
 }
 .page__footer {
     border: 1px solid red;
