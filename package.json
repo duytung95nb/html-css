@@ -1,0 +1,28 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "systemjs": "^0.20.18",
+    "tsc": "^1.20150623.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duytung95nb/html-css.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Tung Dao",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/duytung95nb/html-css/issues"
+  },
+  "homepage": "https://github.com/duytung95nb/html-css#readme"
+}
