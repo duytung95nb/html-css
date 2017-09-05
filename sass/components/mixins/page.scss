@@ -1,0 +1,14 @@
+
+@mixin create-page($header-border-color: $page-header-border-color,
+                $content-border-color: $page-content-border-color,
+                $footer-border-color: $page-footer-border-color) {
+    &__header {
+        border: 1px solid $header-border-color;
+    }
+    &__content {
+        border: 1px solid $content-border-color;
+    }
+    &__header {
+        border: 1px solid $footer-border-color;
+    }
+}
