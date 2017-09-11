@@ -10,7 +10,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "sass": "node-sass sass/themes/default/index.scss assets/css/style.css",
+    "sass-blue": "node-sass sass/themes/blue/index.scss assets/css/style-blue.css"
   },
   "repository": {
     "type": "git",

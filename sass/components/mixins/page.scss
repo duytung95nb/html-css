@@ -1,0 +1,12 @@
+
+@mixin create-page($border-color: $page-component-border-color) {
+    &__header {
+        border: 1px solid $border-color;
+    }
+    &__content {
+        border: 1px solid $border-color;
+    }
+    &__footer {
+        border: 1px solid $border-color;
+    }
+}
