@@ -6,13 +6,15 @@
   "dependencies": {
     "node-sass": "^4.5.3",
     "systemjs": "^0.20.18",
-    "tsc": "^1.20150623.0"
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.5.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "test",
     "sass": "node-sass sass/themes/default/index.scss assets/css/style.css",
-    "sass-blue": "node-sass sass/themes/blue/index.scss assets/css/style-blue.css"
+    "sass-blue": "node-sass sass/themes/blue/index.scss assets/css/style-blue.css",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",

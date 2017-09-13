@@ -4,6 +4,19 @@
   <title>Javascript practice</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body><script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="./node_modules/systemjs/dist/system.src.js"></script>
+  <script>
+    System.config({
+      packages: {
+        "ts": {
+          defaultJsExtension: true
+        }
+      }
+    });
+    System.import("ts/main").catch(function (error){
+      console.log(error);
+    })
+  </script>
 </body>
 </html>
